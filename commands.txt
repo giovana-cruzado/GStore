@@ -15,3 +15,8 @@ dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.1
 dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.1
 dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9.0.1
 dotnet add package MySql.EntityFrameworkCore --version 9.0.0        
+
+Abrir o arquivo csproj e mudar na linha 5 de enable para disable
+tirar o ? do errorviewmodel
+
+Camada de Dados (Models) dados q vao aparecer na página
