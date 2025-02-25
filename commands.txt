@@ -20,3 +20,9 @@ Abrir o arquivo csproj e mudar na linha 5 de enable para disable
 tirar o ? do errorviewmodel
 
 Camada de Dados (Models) dados q vao aparecer na página
+
+Criar o Contexto na pasta Data
+
+configurar a connectionsstring no arquivo appsettings.json
+
+Configurar os serviços de Contexto e Identidade no Program.cs
