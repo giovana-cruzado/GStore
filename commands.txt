@@ -26,3 +26,7 @@ Criar o Contexto na pasta Data
 configurar a connectionsstring no arquivo appsettings.json
 
 Configurar os serviços de Contexto e Identidade no Program.cs
+
+dotnet aspnet-codegenerator controller -name CategoriasController --model Categoria --dataContext AppDbContext --layout "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
+
+dotnet aspnet-codegenerator controller -name ProdutosController --model Produto --dataContext AppDbContext --layout "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
